@@ -4,10 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ProfileComponent } from './components/profile/profile.component';
+import { PrioritiesComponent } from './components/priorities/priorities.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ProfileComponent,
+    PrioritiesComponent
   ],
   imports: [
     BrowserModule,
