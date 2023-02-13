@@ -77,13 +77,6 @@ div#priority-5 {
   cursor: pointer;
 }
 
-.card-body:hover {
-  background-color: var(--dark-blue);
-  &img#filter:hover {
-    cursor: pointer;
-}
-}
-
 .card-title {
   font-weight: 400;
   color: var(--white);
